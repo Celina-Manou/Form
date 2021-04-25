@@ -72,3 +72,123 @@ form {
     left: 499px;
     top: -40px;
 }
+#company {
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 532px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+#mail {
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 532px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+#code{
+    position: relative;
+    left: 78px;
+    top: -37px;
+    line-height: 40px;
+    width: 95px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+#phone {
+    position: relative;
+    left: 52px;
+    top: -37px;
+    line-height: 40px;
+    width: 250px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+#labelcode {
+    position: relative;
+    left: 215px;
+    top: -5px;
+    line-height: 40px;
+    width: 95px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: white;
+}
+#labelphone {
+    position: relative;
+    left: 275px;
+    top: -5px;
+    line-height: 40px;
+    width: 95px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color:white;
+}
+#option {
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 578px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color:white;
+    outline:none;
+    overflow: hidden;
+}
+#option option {
+    font-size: 18px;
+}
+#student {
+    margin-left: 25px;
+    color: white;
+    font-size: 18px;
+}
+#radio {
+    display: inline-block;
+    padding-right: 70px;
+    font-size: 25px;
+    margin-left: 25px;
+    margin-top: 15px;
+    color: white;
+}
+.radio input {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+}
+button {
+    background-color: #3BAF9F;
+    display: block;
+    margin: 20px 0px 0px 20px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid seashell;
+    padding: 14px 110px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25px;
+    font-size: 20px;
+}
+button:hover {
+    background-color: slateblue;
+}

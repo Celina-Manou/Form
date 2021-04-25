@@ -31,14 +31,14 @@
             <input type="text" id="mail" name="email">
             
             <h2 class="name">Phone</h2>
-            <label for="code">Area Code</label>
+            <label for="code" id="labelcode">Area Code</label>
             <input type="text" id="code" name="area_code">
-            <label for="phone">Phone Number</label>
+            <label for="phone" id="labelphone">Phone Number</label>
             <input type="text" id="phone" name="phoneno">
 
             <h2 class="name">Subject</h2>
             <select name="subject" id="option">
-                <option value="subject">
+                <option value="subject" disabled="disabled" selected="selected">
                     --Choose Option
                 </option>
                 <option value="subject1">Subject1</option>
@@ -48,12 +48,12 @@
             </select>
 
             <h2 id="student"> Are you a beginner?</h2>
-            <label for="radio_1">
+            <label for="radio_1" class="radio">
             <input id="radio_1" type="radio" name="radio_1" checked>
             <span class="checkmark"></span>
             Yes
         </label> <br>
-            <label for="radio_2">
+            <label for="radio_2" class="radio">
             <input id="radio_2" type="radio" name="radio_2">
             <span class="checkmark"></span>
             No
