@@ -32,7 +32,7 @@ form {
 }
 .name {
     margin-left: 50px;
-    margin-top: 10px;
+    margin-top: 20px;
     width: 125px;
     color: white;
     font-size: 20px;
@@ -40,11 +40,11 @@ form {
 }
 #firstname {
     position: relative;
-    left: 100px;
-    top: -37px;
+    left: 115px;
+    top: -30px;
     line-height: 30px;
     border-radius: 6px;
-    padding: 0 22px;
+    padding: 0px 22px 8px;
     font-size: 16px;
 }
 #lastname {
@@ -53,7 +53,7 @@ form {
     top: -70px;
     line-height: 30px;
     border-radius: 6px;
-    padding: 0 22px;
+    padding: 0 22px 8px;
     font-size: 16px;
 }
 .firstlabel {
@@ -61,8 +61,8 @@ form {
     color: #E5E5E5;
     text-transform: capitalize;
     font-size: 16px;
-    left: 182px;
-    top: -6px;
+    left: 202px;
+    top: 10px;
 }
 .lastlabel {
     position: relative;
@@ -70,7 +70,7 @@ form {
     text-transform: capitalize;
     font-size: 16px;
     left: 499px;
-    top: -40px;
+    top: -33px;
 }
 #company {
     position: relative;
@@ -156,15 +156,15 @@ form {
     font-size: 18px;
 }
 #student {
-    margin-left: 25px;
+    margin-left: 205px;
     color: white;
     font-size: 18px;
 }
-#radio {
+.radio {
     display: inline-block;
     padding-right: 70px;
-    font-size: 25px;
-    margin-left: 25px;
+    font-size: 20px;
+    margin-left: 205px;
     margin-top: 15px;
     color: white;
 }
@@ -178,7 +178,7 @@ form {
 button {
     background-color: #3BAF9F;
     display: block;
-    margin: 20px 0px 0px 20px;
+    margin: 20px 0px 30px 250px;
     text-align: center;
     border-radius: 12px;
     border: 2px solid seashell;
