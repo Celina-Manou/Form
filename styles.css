@@ -148,7 +148,7 @@ form {
     border-radius: 6px;
     padding: 0 22px;
     font-size: 16px;
-    color:white;
+    color:black;
     outline:none;
     overflow: hidden;
 }
@@ -162,9 +162,8 @@ form {
 }
 .radio {
     display: inline-block;
-    padding-right: 70px;
     font-size: 20px;
-    margin-left: 205px;
+    margin-left: 200px;
     margin-top: 15px;
     color: white;
 }
